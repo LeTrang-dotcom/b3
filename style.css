@@ -233,55 +233,43 @@ body{
     width: 593.95px;
     height: 987.13px;
     background: #FFFFFF;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 .label-login{
-    position: absolute;
     width: 110px;
     height: 46px;
-    top: 43.92px;
-    left: 37.64px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 37.64px;
     font-weight: 600;
     line-height: 45.56px;
-    text-align: left;
 }
 .bt-login-with-google{
-    position: absolute;
     width: 516.57px;
     height: 64.83px;
-    top: 129.66px;
-    left: 39.74px;
-    padding: 14.64px 81.56px 14.64px 81.56px;
     border-radius: 10.46px;
     border: 3.14px solid #0000000D;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 27.19px;
     font-weight: 600;
     line-height: 32.9px;
     letter-spacing: 0.01em;
 }
-.icon-google{
-    position: absolute;
+.icon-google img{
     width: 20.5px;
     height: 20.91px;
-    left: 100px;
-    top: 20px;
 }
 
 .email{
-    position: absolute;
     width: 516.57px;
     height: 113.56px;
-    top: 278.15px;
-    left: 39.74px;
-
 }
 .email label{
     width: 68px;
     height: 32px;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 27.19px;
     font-weight: 500;
     line-height: 31.86px;
@@ -296,35 +284,30 @@ body{
 .email-input input{
     width: 500px;
     height: 64.83px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 26.14px;
     font-weight: 600;
     line-height: 31.64px;
-    text-align: left;
     border: 0;
     padding-left: 10px;
 }
 .pass {
-    position: absolute;
     width: 516.57px;
     height: 113.56px;
-    top: 420.37px;
-    left: 39.74px;
 }
 .pass label{
     width: 121px;
     height: 32px;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 27.19px;
     font-weight: 500;
     line-height: 31.86px;
-    text-align: left;
 }
 .pass-input{
     width: 516.57px;
     height: 64.83px;
     border-radius: 10.46px;
-    border: 3.14px;
+    border: 3.14px solid #0000000D;
 }
 .pass-input input{
     width: 516.57px;
@@ -333,17 +316,15 @@ body{
     font-size: 25.1px;
     font-weight: 500;
     line-height: 30.37px;
-    text-align: left;
     border: 0;
     padding-left: 10px;
 }
 .check-input{
-    position: absolute;
     width: 226.92px;
     height: 33.46px;
-    top: 575.13px;
-    left: 39.74px;
-    margin-top: -20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 .check-input-text input{
     width: 33.46px;
@@ -352,81 +333,65 @@ body{
     border: 3.14px solid #FFFFFF;
 }
 .check-input-label{
-    position: absolute;
-    top: 5px;
-    left: 40px;
     width: 183px;
     height: 32px;
-    font-family: Inter;
     font-size: 26.14px;
     font-weight: 600;
     line-height: 31.64px;
-    text-align: left;
     color: #00000066;
 }
 .bt-login{
-    position: absolute;
     width: 516.57px;
     height: 64.83px;
-    top: 650.42px;
-    left: 39.74px;
-    padding: 14.64px 20.91px 14.64px 20.91px;
     border-radius: 10.46px;
     border: 0;
     background: #0085FF;
-    font-family: Inter;
     font-size: 27.19px;
     font-weight: 600;
     line-height: 32.9px;
     color: #FFFFFF;
+    margin-top: 10px;
+}
+.forget-label {
+    width: 100%;
+    height: 33px;
+    margin-top: 10px;
+    text-align: center;
 }
 .forget-label a{
-    position: absolute;
-    width: 236px;
-    height: 33px;
-    top: 757.08px;
-    left: 179.86px;
-    font-family: Inter;
+    text-decoration: none;
+    color: #0085FF;
+    font-family: "Inter", sans-serif;
     font-size: 27.19px;
     font-weight: 600;
     line-height: 32.9px;
-    text-align: center;
-    color: #0085FF;
-    text-decoration: none;
 }
 .message-label{
-    position: absolute;
     width: 314px;
     height: 33px;
-    top: 876.28px;
-    left: 140.12px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 27.19px;
     font-weight: 600;
     line-height: 32.9px;
     text-align: left;
     color: #00000066;
 }
-.singup-label a{
-    position: absolute;
+.singup-label {
     width: 99px;
     height: 33px;
-    top: 913.93px;
-    left: 248.87px;
-    font-family: Inter;
     font-size: 27.19px;
     font-weight: 600;
     line-height: 32.9px;
-    text-align: center;
     color: #0085FFCC;
     text-decoration: none;
+    margin-left: 80px;
+    
 }
-.icon-cancle{
-    position: absolute;
+.icon-cancle img{
     width: 43.92px;
     height: 43.92px;
-    top: 27.19px;
-    left: 524.93px;
+    float: right;
+    margin-top: -10%;
 }
 /* bai 9 */
 .container-2{
@@ -435,64 +400,55 @@ body{
     background: #FFFFFF;
     position: relative;
 }
-.avatar img{
+.profile{
     position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.avatar{
     width: 586px;
     height: 694px;
-    top: 50px;
-    left: 50px;
     border-radius: 44px;
 }
+.avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: 100%;
+}
 .title{
-    position: absolute;
     width: 213px;
     height: 52px;
-    top: 50px;
-    left: 694px;
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: 44px;
     font-style: italic;
     font-weight: 700;
     line-height: 52.14px;
-    text-align: left;
     color: #8CC5F9;
 }
 .content-text{
-    position: absolute;
     width: 552px;
     height: 299px;
-    top: 126px;
-    left: 694px;
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 37.92px;
-    text-align: left;
+}
+.contact{
+    display: flex;
+    justify-content: flex-start;
 }
 .contact img{
-    position: absolute;
     width: 40px;
     height: 40px;
-}
-.img-1{
-    top: 497px;
-    left: 694px;
-}
-.img-2{
-    top: 497px;
-    left: 746px;
-}
-.img-3{
-    top: 497px;
-    left: 798px;
+    margin-right: 5px;
 }
 .message-2{
-    position: absolute;
     width: 552px;
     height: 129px;
-    top: 597px;
-    left: 694px;
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: 32px;
     font-style: italic;
     font-weight: 300;
@@ -502,11 +458,9 @@ body{
 }
 .icon-cancle-2 img{
     position: absolute;
+    top: 5px;
+    right: 5px;
     width: 29.56px;
     height: 29.56px;
-    top: 6.72px;
-    left: 6.72px;
-    border: 4px 0px 0px 0px;
-    top: 24px;
-    left: 1237px;
+    border: 4px;
 }
