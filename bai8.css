@@ -1,0 +1,138 @@
+.container{
+    max-width: 593.95px;
+    max-height: 987.13px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20.91px;
+    padding: 35px;
+    font-size: 24px;
+    margin: 0 auto;
+    position: relative;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+header > span{
+    font-family: "Inter", sans-serif;
+    font-size: 37.64px;
+    font-weight: 600;
+    line-height: 45.56px;
+}
+.btn{
+    font-family: "Inter",sans-serif;
+    font-size: 27.19px;
+    font-weight: 600;
+    line-height: 32.9px;
+    width: 100%;
+    border: 3.14px solid #0000000D;
+    border-radius: 5px;
+}
+.btn-login-with-google{
+    background: transparent;
+}
+.btn-login-with-google:hover{
+    background: gray;
+}
+header > button > svg{
+    width: 20.5px;
+    height: 20.91px;
+    color: #00000080;
+}
+header > button > span{
+    color: #000000CC;
+}
+.mb-3{
+    margin-bottom: 1rem;
+}
+.mr-3{
+    margin-right: 1rem;
+}
+.mt-3{
+    margin-top: 1rem;
+}
+hr{
+    border: 1px solid #0000000D;
+}
+section > div{
+    display: flex;
+    flex-direction: column;
+}
+.form-label{
+    font-family: "Roboto", sans-serif;
+    font-size: 27.19px;
+    font-weight: 500;
+    line-height: 31.86px;
+}
+.form-control{
+    padding: 14.64px 81.56px 14.64px 20.91px;
+    gap: 20.91px;
+    border-radius: 10.46px;
+    border: 3.14px;
+    border: 3.14px solid #0000000D;
+    font-family: "Inter",sans-serif;
+    font-size: 26.14px;
+    font-weight: 600;
+    line-height: 31.64px;
+}
+.input-group{
+    max-width: 226.92px;
+    max-height: 33.46px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.input-group-text > input{
+    width: 33.46px;
+    height: 33.46px;
+    background: #0185FE;
+    border-radius: 5px;
+}
+.input-group > span{
+    font-family: "Inter", sans-serif;
+    font-size: 26.14px;
+    font-weight: 600;
+    line-height: 31.64px;
+    color: #00000066;
+}
+.btn-login{
+    background: #0084ff;
+    color: white;
+}
+.btn-login:hover{
+    background: #3676b3;
+}
+section > p{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 27.19px;
+    font-weight: 600;
+    line-height: 32.9px;
+}
+a{
+    color: #0085FF;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 27.19px;
+    font-weight: 600;
+    line-height: 32.9px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer > p{
+    font-family: "Inter", sans-serif;
+    font-size: 27.19px;
+    font-weight: 600;
+    line-height: 32.9px;
+    color: #00000066;
+}
+.close{
+    position: absolute;
+    top: 3%;
+    left: 90%;
+}
